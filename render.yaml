@@ -20,6 +20,8 @@ services:
       - key: DJANGO_ALLOWED_HOSTS
         value: ".onrender.com"
       - key: CORS_ALLOW_ALL_ORIGINS
-        value: "true"
+        value: "false"
+      - key: CORS_ALLOWED_ORIGINS
+        value: "https://spotter-two-tau.vercel.app"
       - key: NOMINATIM_USER_AGENT
         value: "spotter-hos/1.0 (romanrodriguez2002@gmail.com)"
