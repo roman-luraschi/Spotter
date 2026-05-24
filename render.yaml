@@ -22,4 +22,4 @@ services:
       - key: CORS_ALLOW_ALL_ORIGINS
         value: "true"
       - key: NOMINATIM_USER_AGENT
-        value: "spotter-hos/1.0 (contact@example.com)"
+        value: "spotter-hos/1.0 (romanrodriguez2002@gmail.com)"
